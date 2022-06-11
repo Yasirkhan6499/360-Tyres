@@ -1198,7 +1198,11 @@ figure.snip1157 .author h5 span {
     color: white;
 
 }
-
+/******* payment Methods (logos) ***/
+.payment-logos{
+    width: 80%;
+    margin: -2rem 0 -1rem;
+}
 /****** slider/ Product section *******/
 
 .wrapper {
@@ -1267,7 +1271,7 @@ figure.snip1157 .author h5 span {
 /************** Hero-SEction **********/
 
 .hero-section {
-    height: 25rem;
+    height: 28rem;
     display: flex;
     justify-content: center;
     align-items: center;
