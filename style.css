@@ -643,8 +643,13 @@ form a {
 
 }
 
-.button__text:hover {
+.button__text:hover{
     color: white;
+}
+#contact-btn{
+    background-color: rgb(0, 110, 88);
+    color: white;
+    
 }
 
 .button__text,
@@ -797,7 +802,7 @@ ul.accordions {
 }
 
 .ac-label {
-    font-weight: 700;
+    font-weight: 900;
     position: relative;
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
@@ -809,7 +814,7 @@ ul.accordions {
 
 .ac-input:checked+label,
 .ac-label:hover {
-    background-color: #999;
+    background-color: rgb(239, 239, 239);
 }
 
 .ac-label:after,
@@ -1070,9 +1075,15 @@ figure.snip1157 .author h5 span {
     text-transform: none;
     padding-left: 5px;
 }
-
+/******* FAQ SECTION ***/
+.faq{
+    width: 50%;
+}
+#payment-methods{
+    display: none;
+}
 .faq-label {
-    font-weight: 700;
+    font-weight: 900;
     position: relative;
     padding: .5em 1em;
     margin-bottom: .5em;
@@ -1084,7 +1095,7 @@ figure.snip1157 .author h5 span {
 
 .faq-input:checked+label,
 .faq-label:hover {
-    background-color: #999;
+    background-color: rgb(242, 242, 242);
 }
 
 .faq-label:after,

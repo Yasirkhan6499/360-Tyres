@@ -18,16 +18,16 @@
 3- see the reference image //DONE
 
 //------------ Sepcification section -----
-1- "4 X 275/45/21 Pirelli Scorpion Virdee" title, make it more bolder.
-2- "Product specification" should be the only drop down.
-3- titles and content should be static, below the product specififcation.
-4- make the titles boldness same.
-5- remove the + signs from the titles.
-6- currency sign should be pound
-7- $500 (incl VAT)
-8- paragraph spacing 1.5 (everywhere).
-9- Contact us should be highlighted.
-10- Put the + sign next to the specification (background : white, Hover: very light gray).
+1- "4 X 275/45/21 Pirelli Scorpion Virdee" title, make it more bolder. //DONE
+2- "Product specification" should be the only drop down. //DONE
+3- titles and content should be static, below the product specififcation. //DONE
+4- make the titles boldness same. //DONE
+5- remove the + signs from the titles. //DONE
+6- currency sign should be pound. //DONE
+7- $500 (incl VAT) //DONE
+8- paragraph spacing 1.5 (everywhere). //DONE
+9- Contact us should be highlighted. //DONE
+10- Put the + sign next to the specification (background : white, Hover: very light gray). 
 11- All the drop-down should be like the "specification" i-e bg color etc
 12- About 360 TYRES
     Payment Methods
