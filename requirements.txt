@@ -1,0 +1,65 @@
+------------ menu section----------------
+
+1- increase menu section height  //DONE
+2- (2) shopping cart => secured checkout  //DONE
+3- (1) 100% customer satisfaction (get a thumbs up icon) //DONE
+4- (3) next day delivery on orders before 1pm (uk mainland only) //DONE
+5- Icons should be black //DONE
+6- main logo should be on all the way to left //DONE
+7- whatsapp after the logo //DONE
+8- icons should be bolder 
+9- Font : Roboto //DONE
+10- Responsiveness //DONE
+
+//-------- Hero Section-----------
+
+1- The label from the backround image should be removed
+2- A Grade pressure tested Stock (Title for the hero section) //DONE
+3- see the reference image //DONE
+
+//------------ Sepcification section -----
+1- "4 X 275/45/21 Pirelli Scorpion Virdee" title, make it more bolder.
+2- "Product specification" should be the only drop down.
+3- titles and content should be static, below the product specififcation.
+4- make the titles boldness same.
+5- remove the + signs from the titles.
+6- currency sign should be pound
+7- $500 (incl VAT)
+8- paragraph spacing 1.5 (everywhere).
+9- Contact us should be highlighted.
+10- Put the + sign next to the specification (background : white, Hover: very light gray).
+11- All the drop-down should be like the "specification" i-e bg color etc
+12- About 360 TYRES
+    Payment Methods
+    Delivery
+    Terms Of Sale
+    Returns
+    Zero Tolerance
+    FAQ's
+13- Delivery Section: Remove the table. (Experiment)
+14- Payment Methods : Put logos of every payment brand
+15- Employees Pledge: Remove all the info, replace it with what rahul will send.
+16- Font-size on Answers : 0.9rem
+
+
+------- Process Section -------
+1- Put all the content in middle (Experiment)
+2- Make the icons bolder.
+
+//------ Proudly Section---------------
+
+1- Hunkook => Hankook
+2- Brand Logos
+3- 
+
+---------------- Customer Reviews Section------------------
+1- Background : Very light gray
+2- Remove the customer icons
+3- "Speach marks" icons : smaller
+4- Make some of the reviews a bit smaller
+5- Put 5 reviews (get it from google)
+
+----------- Footer Section -------------
+
+1- Put the About us below the 360 Tyres.
+2- 
