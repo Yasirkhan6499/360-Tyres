@@ -6,7 +6,7 @@
 
 body {
     
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik';
     line-height: 1.7;
 }
 
@@ -1076,9 +1076,14 @@ figure.snip1157 .author h5 span {
     padding-left: 5px;
 }
 /******* FAQ SECTION ***/
+.small-container{
+    margin-top: 4rem;
+}
 .faq{
     width: 50%;
+    
 }
+
 #payment-methods{
     display: none;
 }
@@ -1131,8 +1136,12 @@ figure.snip1157 .author h5 span {
     opacity: 0;
     height: 0;
     margin-bottom: .5em;
-    transition: opfaqity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
     overflow: hidden;
+    
+}
+.faq-sub-text{
+    font-size: 0.9rem;
 }
 
 .faq-input:checked~.faq-text,
@@ -1166,6 +1175,16 @@ figure.snip1157 .author h5 span {
 
 .faq-sub-text {
     padding: 0 1em 0 2em;
+}
+@media screen and (max-width: 750px) {
+    .faq{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .faq{
+        width: 100%;
+    }
 }
 
 /* table css*/
@@ -1214,7 +1233,7 @@ figure.snip1157 .author h5 span {
 .slider {
     /* width: 640px; */
     position: relative;
-    padding-top: 380px;
+    padding-top: 15rem;
     /* margin: 20px auto; */
     /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.15); */
 
@@ -1260,6 +1279,37 @@ figure.snip1157 .author h5 span {
     transform: scale(1);
 }
 
+/******* Slider (@media)***/
+@media screen and (min-width: 450px) {
+   .slider{
+    padding-top: 22rem;
+   }
+}
+@media screen and (min-width: 601px) {
+    .single-product .col-2{
+        flex-basis: 100%;
+    }
+}
+@media screen and (min-width: 665px) {
+    .slider{
+        padding-top: 15rem;
+    }
+    .single-product .col-2{
+        flex-basis: 50%;
+    }
+}
+@media screen and (min-width: 920px) {
+    .slider{
+        padding-top: 20rem;
+    }
+    
+}
+@media screen and (min-width: 1150px) {
+    .slider{
+        padding-top: 23rem;
+    }
+    
+}
 /***** Product-Section *******/
 .product-title{
     font-weight: 900;
@@ -1271,10 +1321,12 @@ figure.snip1157 .author h5 span {
 /************** Hero-SEction **********/
 
 .hero-section {
-    height: 28rem;
+    
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 .hero-section .container{
     padding-bottom: 0;
@@ -1282,7 +1334,9 @@ figure.snip1157 .author h5 span {
 
 .hero-title{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
+  
+    margin: 6rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1297,33 +1351,43 @@ figure.snip1157 .author h5 span {
 }
 
 /****** Hero (@Media)***/
-@media screen and (max-width: 790px) {
+@media screen and (min-width: 885px) {
     .hero-title{
-        font-size: 0.8rem;
+        font-size: 1.5rem;
+        margin: 9rem;
     }
 }
-@media screen and (max-width: 590px) {
-    .hero-title{
-        flex-direction: column;
-    }
-    .hero-title-h1-2{
-        display: block;
-    }
-    .hero-title-h1-1{
-        display: none;
-    }
-}
+
 /* -----------header -------------*/
 
 .header {
-    overflow: hidden;
-    height: 8rem;
-    padding: 20px 10px;
-
+   
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  
+}
+.float-btn{
+   position: fixed;
+   top: 10px;
+   right: 0;
+   background: rgba(255, 255, 255, 0.792);
+   
+    z-index: 30;
+}
+.header-para{
+    font-weight: 900;
+    
+    
+   font-size: 1.3rem;
+   color: black;
+   background: rgba(241, 241, 241, 0.747);
+   margin: 3rem 0.8rem;
+
+   
+}
+.header-content{
+
 }
 .header-whatsapp-section{
     
@@ -1376,78 +1440,16 @@ figure.snip1157 .author h5 span {
     }
 
 /*------Header (@media) ---------*/
-@media screen and (max-width: 1150px) {
-    .header a.logo {
-        font-size: 1.3rem;
+@media screen and (min-width: 750px) {
+    .header-para{
+     
+       font-size: 2.4rem;
+       margin-top
     }
-    .header {
-        
-        gap: 5rem;
+    .header-content{
+        width: 80%;
+        margin: auto;
     }
-    .header-right {
-        display: flex;
-        gap: 1rem;
-        
-    }
-
-    }
-
-    @media screen and (max-width: 930px) {
-        .header-right-item span{
-
-            display: inline-block;
-            width: 20ch;
-          
-        }
-       
-    
-    }
-    @media screen and (max-width: 760px) {
-
-        .header{
-            height: 12rem;
-        }
-        .header-right {
-           flex-direction: column;
-            
-        }
-        .header-right-item span{
-
-            display: inline-block;
-          width: 30ch;
-        }
-    
-    }
-@media screen and (max-width: 500px) {
- 
-    .header{
-        gap: 1rem;
-        
-    }
-    .button__text{
-        font-size: 0.9rem;
-    }
-   
-}
-
-@media screen and (max-width: 420px) {
-    .header{
-        gap: 0rem;
-        
-    }
-    .header a.logo {
-        font-size: 20px;  
-    }
-    .button__text{
-        font-size: 0.8em;
-    }
-    .header-right-item span{
-        font-size: 0.7rem;
-    }
-   .button__icon img{
-    width: 1.3rem;
-    transform: translateX(-1rem);
-   }
 }
 
 /* brands section */

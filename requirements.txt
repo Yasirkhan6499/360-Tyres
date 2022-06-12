@@ -27,22 +27,24 @@
 7- $500 (incl VAT) //DONE
 8- paragraph spacing 1.5 (everywhere). //DONE
 9- Contact us should be highlighted. //DONE
-10- Put the + sign next to the specification (background : white, Hover: very light gray). 
-11- All the drop-down should be like the "specification" i-e bg color etc
-12- About 360 TYRES
-    Payment Methods
-    Delivery
-    Terms Of Sale
-    Returns
-    Zero Tolerance
-    FAQ's
+10- Put the + sign next to the specification (background : white, Hover: very light gray). //Done 
+11- All the drop-down should be like the "specification" i-e bg color etc //Done
+12- About 360 TYRES //DONE
+    Payment Methods ///
+    Delivery   ///
+    Terms Of Sale  ///
+    Returns  /// 
+    Zero Tolerance  ///
+    FAQ's  ///
 13- Delivery Section: Remove the table. (Experiment)
-14- Payment Methods : Put logos of every payment brand
+14- Payment Methods : Put logos of every payment brand  //DONE
 15- Employees Pledge: Remove all the info, replace it with what rahul will send.
-16- Font-size on Answers : 0.9rem
+16- Font-size on Answers : 0.9rem  //DONE
+17- Responsiveness //Done
 
 
 ------- Process Section -------
+0- Background : very Light gray
 1- Put all the content in middle (Experiment)
 2- Make the icons bolder.
 

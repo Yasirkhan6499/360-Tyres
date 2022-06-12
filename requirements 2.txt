@@ -1,0 +1,22 @@
+1- change font-family. (Font-family:  "futura-pt",sans-serif;)
+2- A GRADE STOCK
+3- Remove the watsapp from hero-section
+4.1- less space between the product pic and the slider-pics.
+4- product title and product price at the top of the product pic.
+5- product description will go in a drop-down called "product description".
+6- Remove the "Contact us" and watsapp num.
+7- Make the dropdown background white.
+8- Remove the dummy text from the product sepcification sub-headings.
+9- Payment methods logos should be removed, and put bullet points.
+10- delivery table, align text to left.
+11- Terms of Sale: Make more paragraphs.
+12- "Our process": gap should be less between the title and the content below.
+13- Our process: Make the icons smaller
+14- put title : Our Brands
+15- Remove the background. make it white.
+16- put the brand logos ( use grid)
+17- all the brand logos should be black.
+18- Remove the dummy text.
+19- speach quotes " " should be a bit small.
+20- Put animations on the reviews.
+21- 
