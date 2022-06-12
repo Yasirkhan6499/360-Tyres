@@ -1387,6 +1387,9 @@ figure.snip1157 .author h5 span {
     flex-direction: column;
   
 }
+.logo{
+    margin-top: 1.2rem;
+}
 .float-btn{
    position: fixed;
    top: 10px;
