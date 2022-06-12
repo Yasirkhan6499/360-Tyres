@@ -990,6 +990,11 @@ figure.snip1157 {
     text-align: left;
     box-shadow: none !important;
 }
+figure.snip1157:hover{
+    cursor: pointer;
+    transform: scale(1.1) !important;
+    transition: transform 0.3s ease-in-out;
+}
 
 figure.snip1157 * {
     -webkit-box-sizing: border-box;
