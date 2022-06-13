@@ -112,8 +112,16 @@ p {
 .small-container {
     max-width: 1280px;
     margin: auto;
+    margin-top: -1rem;
     padding-left: 25px;
     padding-right: 25px;
+}
+@media screen and (min-width: 665px) {
+    .small-container {
+       
+        margin-top: 3rem;
+        
+    }
 }
 
 .col-4 {
@@ -442,6 +450,7 @@ input:focus {
     flex-basis: 24%;
     cursor: pointer;
 }
+
 
 /* cart items */
 
@@ -807,6 +816,7 @@ ul.accordions {
 
 .ac-label {
     font-weight: 700;
+    font-size: 16px;
     position: relative;
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
@@ -816,30 +826,31 @@ ul.accordions {
     transition: background-color 0.15s ease-in-out;
 }
 
-.ac-input:checked+label,
+/* .ac-input:checked+label,
 .ac-label:hover {
     background-color: rgb(247, 247, 247);
-}
+} */
 
 .ac-label:after,
 .ac-input:checked+.ac-label:after {
     content: "+";
     position: absolute;
     display: block;
-    right: 0;
+    left:calc(450px/2);
+   
     top: 0;
     width: 2em;
     height: 100%;
     line-height: 2.25em;
     text-align: center;
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
     transition: background-color 0.15s ease-in-out;
 }
 
-.ac-label:hover:after,
+/* .ac-label:hover:after,
 .ac-input:checked+.ac-label:after {
     background-color: #b5b5b5;
-}
+} */
 
 .ac-input:checked+.ac-label:after {
     content: "-";
@@ -851,6 +862,7 @@ ul.accordions {
 
 .ac-text
  {
+    font-size: 14px;
     opacity: 0;
     height: 0;
     margin-bottom: 0.5em;
@@ -888,9 +900,11 @@ ul.accordions {
 }
 
 .ac-sub-text {
+    font-size: 14px;
     padding: 0 1em 0 2em;
 }
 #ac-label-content{
+    font-size: 16px;
     font-weight: 900;
     
 }
@@ -1086,9 +1100,7 @@ figure.snip1157 .author h5 span {
     padding-left: 5px;
 }
 /******* FAQ SECTION ***/
-.small-container{
-    margin-top: 4rem;
-}
+
 .faq{
     width: 50%;
     
@@ -1099,6 +1111,7 @@ figure.snip1157 .author h5 span {
 }
 .faq-label {
     font-weight: 700;
+    font-size: 16px;
     position: relative;
     padding: .5em 1em;
     margin-bottom: .5em;
@@ -1108,30 +1121,30 @@ figure.snip1157 .author h5 span {
     transition: background-color .15s ease-in-out;
 }
 
-.faq-input:checked+label,
+/* .faq-input:checked+label,
 .faq-label:hover {
     background-color: rgb(247, 247, 247);
-}
+} */
 
 .faq-label:after,
 .faq-input:checked+.faq-label:after {
     content: "+";
     position: absolute;
     display: block;
-    right: 0;
+    left: calc(450px/2);
     top: 0;
     width: 2em;
     height: 100%;
     line-height: 2.25em;
     text-align: center;
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
     transition: background-color .15s ease-in-out;
 }
 
-.faq-label:hover:after,
+/* .faq-label:hover:after,
 .faq-input:checked+.faq-label:after {
     background-color: #b5b5b5;
-}
+} */
 
 .faq-input:checked+.faq-label:after {
     content: "-";
@@ -1143,6 +1156,7 @@ figure.snip1157 .author h5 span {
 
 .faq-text,
 .faq-sub-text {
+    font-size: 14px;
     opacity: 0;
     height: 0;
     margin-bottom: .5em;
@@ -1246,9 +1260,14 @@ figure.snip1157 .author h5 span {
     transform: scale(0.8);
 }
 #dispatch-margin-top{
-    /* margin-top: -20rem; */
+    margin-top: -2rem; 
 }
 
+@media screen and (min-width: 601px ) {
+    #dispatch-margin-top{
+        margin-top: 0; 
+    }
+}
 /********** Our Brands Section ***********/
 .brands-section{
     text-align: center;
@@ -1259,16 +1278,32 @@ figure.snip1157 .author h5 span {
     margin-bottom: 3rem;
 }
 .brands{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
+    justify-content: center;
+    align-items: center;
 }
 .brands div{
     width: 100%;
     margin: 0.5rem;
+    transform: translateX(-0.6rem);
 }
 .brands img{
-    width: 150px;
+    max-width: 120px;
 }
+
+ /****** Our Brands (@Media) ***********/
+ @media screen and (min-width: 800px) {
+    .brands{
+        margin: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+      
+    }
+    .brands div{
+       
+        transform: translateX(0);
+    }
+ }
 /******* payment Methods (logos) ***/
 .payment-logos{
     width: 80%;
@@ -1350,6 +1385,12 @@ figure.snip1157 .author h5 span {
         flex-basis: 50%;
     }
 }
+@media screen and (min-width: 770px) {
+    .slider{
+        padding-top: 20rem;
+    }
+    
+}
 @media screen and (min-width: 920px) {
     .slider{
         padding-top: 20rem;
@@ -1365,9 +1406,37 @@ figure.snip1157 .author h5 span {
 /***** Product-Section *******/
 .product-title{
     font-weight: 900;
+    
+}
+.price-desc-spec{
+   
 }
 .vat{
     font-size: 1rem;
+    
+}
+
+/**** media Queries ***/
+@media screen and (min-width: 601px) {
+ 
+    .price-desc-spec{
+      
+        margin-left: -1.25rem;
+    }
+}
+@media screen and (min-width: 665px) {
+    .product-title{
+     width: 50vw;
+    }
+    .price-desc-spec{
+      margin-top: 10rem;
+        margin-left: 3rem;
+    }
+}
+@media screen and (min-width: 917px) {
+    .product-title{
+     width:auto;
+    }
     
 }
 /************** Hero-SEction **********/
