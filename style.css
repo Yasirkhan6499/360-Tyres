@@ -836,8 +836,8 @@ ul.accordions {
     content: "+";
     position: absolute;
     display: block;
-    left:calc(450px/2);
-   
+    /* left:calc(450px/2); */
+   right: 0;
     top: 0;
     width: 2em;
     height: 100%;
@@ -1131,7 +1131,8 @@ figure.snip1157 .author h5 span {
     content: "+";
     position: absolute;
     display: block;
-    left: calc(450px/2);
+    /* left: calc(450px/2); */
+    right: 0;
     top: 0;
     width: 2em;
     height: 100%;
@@ -1202,7 +1203,7 @@ figure.snip1157 .author h5 span {
 }
 @media screen and (max-width: 750px) {
     .faq{
-        width: 60%;
+        width: 96.43%;
     }
 }
 @media screen and (max-width: 600px) {
