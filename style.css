@@ -9,6 +9,9 @@ body {
     font-family: 'Rubik';
     line-height: 1.7;
 }
+h2{
+    font-size: 26px;
+}
 
 .navbar {
     display: flex;
@@ -459,8 +462,9 @@ table {
 th {
     text-align: left;
     padding: 5px;
-    color: #ffffff;
-    background: #ff523b;
+    color: black;
+    /* background: #ff523b; */
+    
     font-weight: normal;
 }
 
@@ -802,7 +806,7 @@ ul.accordions {
 }
 
 .ac-label {
-    font-weight: 900;
+    font-weight: 700;
     position: relative;
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
@@ -909,7 +913,7 @@ ul.accordions {
 }
 
 .box p {
-    color: var(--grayishBlue);
+    color: black;
 }
 
 .box {
@@ -971,9 +975,10 @@ ul.accordions {
 }
 
 .box h2 {
-    color: var(--varyDarkBlue);
+   
     font-weight: var(--weight3);
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 /* css for testimonials */
@@ -1093,7 +1098,7 @@ figure.snip1157 .author h5 span {
     display: none;
 }
 .faq-label {
-    font-weight: 900;
+    font-weight: 700;
     position: relative;
     padding: .5em 1em;
     margin-bottom: .5em;
@@ -1207,21 +1212,25 @@ figure.snip1157 .author h5 span {
     text-align: left;
 }
 
-#customers tr:nth-child(even) {
+/* #customers tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
 #customers tr:hover {
     background-color: #ddd;
-}
+} */
 
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #737776;
-    color: white;
+    /* background-color: #737776; */
+    color: black;
+    font-weight: bold;
 
+}
+#customers tr td:first-of-type{
+    font-weight: bold;
 }
 /***** Our process ****/
 .process-section{
@@ -1235,6 +1244,30 @@ figure.snip1157 .author h5 span {
 }
 .process__icon{
     transform: scale(0.8);
+}
+#dispatch-margin-top{
+    /* margin-top: -20rem; */
+}
+
+/********** Our Brands Section ***********/
+.brands-section{
+    text-align: center;
+    margin-top: 5rem;
+}
+.brands-section h2{
+    
+    margin-bottom: 3rem;
+}
+.brands{
+    display: flex;
+    flex-direction: column;
+}
+.brands div{
+    width: 100%;
+    margin: 0.5rem;
+}
+.brands img{
+    width: 150px;
 }
 /******* payment Methods (logos) ***/
 .payment-logos{
