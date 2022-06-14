@@ -903,6 +903,9 @@ ul.accordions {
     font-size: 14px;
     padding: 0 1em 0 2em;
 }
+.less-padding{
+    padding-left: 1em;
+}
 #ac-label-content{
     font-size: 16px;
     font-weight: 900;
@@ -1250,6 +1253,7 @@ figure.snip1157 .author h5 span {
 }
 .process__icon{
     transform: scale(0.8);
+    color: black;
 }
 #dispatch-margin-top{
     margin-top: -2rem; 
@@ -1267,7 +1271,7 @@ figure.snip1157 .author h5 span {
 }
 .brands-section h2{
     
-    margin-bottom: 3rem;
+    margin: -2rem 0 3rem;
 }
 .brands{
     display: grid;
