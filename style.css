@@ -1525,7 +1525,7 @@ figure.snip1157 .author h5 span {
 .header{
     position: relative;
     height: 20vh;
-   margin: 0 0 7rem;
+   margin: 0 0 4rem;
 
 }
 .header__menu__mobile{
@@ -1678,7 +1678,7 @@ figure.snip1157 .author h5 span {
     }
     
 }
-@media screen and (max-width: 617px) {
+@media screen and (max-width: 650px) {
     .hero-section{
         text-align: center;
     }
