@@ -1666,7 +1666,7 @@ figure.snip1157 .author h5 span {
    
     margin: 1rem;
     width: 12ch;
-    font-size: clamp(1.8rem,3.5vw,3rem);
+    font-size: clamp(1.7rem,3.5vw,3rem);
     font-weight: 800;
     line-height: 1.2;
 }
