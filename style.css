@@ -1371,7 +1371,7 @@ figure.snip1157 .author h5 span {
 }
 @media screen and (min-width: 665px) {
     .slider{
-        padding-top: 15rem;
+        
     }
     .single-product .col-2{
         flex-basis: 50%;
@@ -1385,7 +1385,7 @@ figure.snip1157 .author h5 span {
 }
 @media screen and (min-width: 920px) {
     .slider{
-        padding-top: 20rem;
+        padding-top: 23rem;
     }
     
 }
