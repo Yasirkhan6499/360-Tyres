@@ -1275,7 +1275,7 @@ figure.snip1157 .author h5 span {
 }
 .brands{
     display: grid;
-    
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
 }
@@ -1292,7 +1292,7 @@ figure.snip1157 .author h5 span {
  @media screen and (min-width: 800px) {
     .brands{
         margin: 1rem;
-        grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+        grid-template-columns: repeat(6,minmax(120px,1fr));
       
     }
     .brands div{
