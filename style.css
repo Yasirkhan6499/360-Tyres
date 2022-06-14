@@ -1431,7 +1431,7 @@ figure.snip1157 .author h5 span {
 }
 @media screen and (min-width: 917px) {
     .product-title{
-     width:50ch;
+     width:28ch;
     }
     
 }
@@ -1717,24 +1717,53 @@ figure.snip1157 .author h5 span {
 
 /*********** Footer- Section ***********/
 footer{
-    margin: 5rem;
+    padding: 2rem;
+    background: rgb(249, 249, 249);
 }
 .footer-section{
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
 
 }
 .copy-right{
-    margin-right: 15rem;
+    
     color: black;
+    font-size: clamp(0.8rem,2vw,1rem);
+    margin-top: 2rem;
 }
  .footer__menu{
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 1rem;
     font-weight: bold;
     color: black;
+   
 }
-
+/***** Footer (@media) ***/
+@media screen and (min-width: 740px) {
+    .footer-section{
+        position: relative;
+        text-align: left;
+    
+    }
+    .footer__menu{
+    
+        flex-direction: row;
+        
+        position: absolute;
+        
+        right: 3rem;
+    }
+    .copy-right{
+    
+        margin-top: 0;
+        
+    }
+}
+@media screen and (min-width: 1000px) {
+    .footer__menu{
+        gap: 3rem;
+    }
+}
 /* .brands xul li:before {
     content: "";
     position: absolute;
