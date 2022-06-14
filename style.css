@@ -948,19 +948,11 @@ ul.accordions {
         margin-top: 10px;
     }
 
-    .hero-section {
-        padding-top: 180px;
-        padding-bottom: 120px;
-    }
+  
 
     .button__text {
         font-size: 13px;
         font-weight: bold !important;
-    }
-
-    .hero-button {
-        position: relative;
-        left: 30% !important;
     }
 
     .brands-section {
@@ -977,9 +969,7 @@ ul.accordions {
         height: 180px;
     }
 
-    .hero-section {
-        padding-top: 200px;
-    }
+  
 }
 
 .box img {
@@ -1436,7 +1426,7 @@ figure.snip1157 .author h5 span {
     }
     .price-desc-spec{
       margin-top: 10rem;
-        margin-left: 3rem;
+     margin-left: 3rem;
     }
 }
 @media screen and (min-width: 917px) {
@@ -1526,57 +1516,20 @@ figure.snip1157 .author h5 span {
    
 }
 
-/************** Hero-SEction **********/
 
-.hero-section {
-    
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-.hero-section .container{
-    padding-bottom: 0;
-}
 
-.hero-title{
-    text-align: center;
-    font-size: 0.8rem;
-  
-    margin: 6rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    
-}
-.hero-title .watsapp-btn{
-    text-align: center;
-}
-.hero-title-h1-2{
-    display: none;
-}
 
-/****** Hero (@Media)***/
-@media screen and (min-width: 750px) {
-    .hero-title{
-        font-size: 1.2rem;
-        margin: 9rem;
-    }
-}
-@media screen and (min-width: 885px) {
-    .hero-title{
-        font-size: 1.5rem;
-        margin: 9rem;
-    }
-}
 
 /* -----------header -------------*/
 
 .header{
     position: relative;
+    height: 20vh;
+   margin: 0 0 7rem;
 
+}
+.header__menu__mobile{
+    margin: 1.9rem;
 }
 .header__menu__mobile a:nth-child(n+2) {
     display: none;
@@ -1639,16 +1592,7 @@ figure.snip1157 .author h5 span {
     gap: 2rem;
     
 }
-.header-right-item span{
-    font-weight: bold;
-    font-size: clamp(0.8rem, 1vw, 1rem);
-    display: inline-block;
-    
-}
- .header-right-item i{
-        font-size: clamp(1rem,2vw,2rem);
-        font-weight: 900;
-    }
+
 
 /*------Header (@media) ---------*/
 @media screen and (max-width: 650px) {
@@ -1699,8 +1643,54 @@ figure.snip1157 .author h5 span {
         margin: auto;
     }
 }
+/************** Hero-SEction **********/
+.hero-section{
+   
+    
+}
+.hero__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.hero__img {
+    
+}
 
-/* brands section */
+.hero__title-btn{
+   
+  margin: 1rem -6rem 0 6rem;
+}
+.hero__title-btn h1{
+   
+    margin: 1rem;
+    width: 12ch;
+    font-size: clamp(1.8rem,3.5vw,3rem);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+/**** Hero (@media) *****/
+@media screen and (min-width: 900px) {
+    .hero__container{
+        gap: 4rem;
+    }
+    
+}
+@media screen and (max-width: 617px) {
+    .hero__container{
+        flex-direction: column;
+    }
+    .hero__title-btn{
+        margin: 1rem;
+    }
+    
+    .hero__title-btn h1{
+        width: auto;
+    }
+}
+/************** brands section ********/
 
 .brands ul {
     /* border: solid 2px skyblue; */
