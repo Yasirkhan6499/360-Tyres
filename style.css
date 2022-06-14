@@ -36,7 +36,7 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -1406,8 +1406,12 @@ figure.snip1157 .author h5 span {
     
 }
 /***** Product-Section *******/
+.wrapper .product-title{
+    font-size: 2.3rem;
+}
 .product-title{
-    font-weight: 900;
+    
+    font-weight: 700;
     
 }
 .price-desc-spec{
@@ -1428,7 +1432,7 @@ figure.snip1157 .author h5 span {
 }
 @media screen and (min-width: 665px) {
     .product-title{
-     width: 50vw;
+     width: 20ch;
     }
     .price-desc-spec{
       margin-top: 10rem;
@@ -1437,10 +1441,90 @@ figure.snip1157 .author h5 span {
 }
 @media screen and (min-width: 917px) {
     .product-title{
-     width:auto;
+     width:50ch;
     }
     
 }
+/************** Why 360 Section ***********/
+.why360-section{
+   margin: 5rem 3rem;
+   text-align: left;
+}
+.why360-section h2{
+    margin: 5rem 0 3.5rem;
+    text-align: center;
+}
+
+.why360__grid{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+}
+.why__quality{
+   width: clamp(29ch,100%,100%);
+  /* position: relative; */
+ 
+}
+.why__quality img{
+    /* position: absolute;
+    left: -3rem; */
+    width: 2rem;
+    margin-right: 1rem;
+    
+}
+.why__quality p:first-of-type{
+   
+   color: black;
+   font-weight: 600;
+  display: inline;
+  text-align: left;
+}
+.order-time{
+    font-size: 0.7rem;
+    margin: -0.3rem 0 0 3.3rem;
+}
+
+/*** Why360 (@media) ***/
+@media screen and (min-width: 897px) {
+    .why__quality img{
+       
+        margin-right: 0rem;
+        
+    }
+}
+@media screen and (min-width: 1053px) {
+    .why__quality img{
+       
+        margin-right: 1rem;
+        
+    }
+    .order-time{
+        
+        margin: -0.3rem 0 0 4.5rem;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .why__quality{
+        width: clamp(29ch,100%,100%);
+       /* position: relative; */
+      
+     }
+    .why360-section{
+        
+        text-align: center;
+     }
+
+    .why360__grid{
+    
+      grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+      
+      
+    }
+   
+}
+
 /************** Hero-SEction **********/
 
 .hero-section {
@@ -1503,7 +1587,7 @@ figure.snip1157 .author h5 span {
    position: fixed;
    top: 10px;
    right: 0;
-   background: rgba(255, 255, 255, 0.792);
+   /* background: rgba(255, 255, 255, 0.792); */
    
     z-index: 30;
 }
@@ -1601,6 +1685,25 @@ figure.snip1157 .author h5 span {
 
 }
 
+/*********** Footer- Section ***********/
+footer{
+    margin: 5rem;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.copy-right{
+    margin-right: 15rem;
+    color: black;
+}
+ .footer__menu{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    color: black;
+}
 
 /* .brands xul li:before {
     content: "";
