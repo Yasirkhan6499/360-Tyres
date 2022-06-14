@@ -1472,6 +1472,7 @@ figure.snip1157 .author h5 span {
     width: 2rem;
     margin-right: 1rem;
     
+    
 }
 .why__quality p:first-of-type{
    
@@ -1573,40 +1574,34 @@ figure.snip1157 .author h5 span {
 
 /* -----------header -------------*/
 
-.header {
-   
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  
+.header{
+    position: relative;
+
 }
+.header__menu__mobile a:nth-child(n+2) {
+    display: none;
+}
+
 .logo{
-    margin-top: 1.2rem;
+   margin-left: 3rem;
+   
 }
 .float-btn{
    position: fixed;
-   top: 10px;
+   top: 1.9rem;
    right: 0;
    /* background: rgba(255, 255, 255, 0.792); */
    
     z-index: 30;
 }
-.header-para{
-    font-weight: 900;
-    
-    
-   font-size: 1.3rem;
-   color: black;
-   background: rgba(241, 241, 241, 0.747);
-   margin: 3rem 0.8rem;
 
-   
-}
-.header-content{
 
-}
 .header-whatsapp-section{
-    
+
+}
+.header__menu{
+   position: absolute;
+   right: 12rem;
 }
 
 .header a {
@@ -1656,6 +1651,43 @@ figure.snip1157 .author h5 span {
     }
 
 /*------Header (@media) ---------*/
+@media screen and (max-width: 650px) {
+
+    .header__menu__mobile a:nth-child(n+2) {
+        display: block;
+        margin-left: 2rem;
+    }
+
+    .header__menu__mobile a:nth-child(2n) {
+        margin-top: 1rem;
+        
+    }
+    .header__menu__mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 2rem;
+        }
+
+        .header__menu{
+            display: none;
+        }
+    .header{
+        text-align: center;
+        
+    }
+    .logo{
+        margin-left: 0rem;
+        
+     }
+    
+    .header__menu{
+        position: relative;
+        right: 0rem;
+        
+     }
+}
 @media screen and (min-width: 750px) {
     .header-para{
      
